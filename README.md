@@ -1,2 +1,1 @@
-# MyBlog
-paspar.us.kg
+# Thank you for guiding me here!
