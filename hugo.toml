@@ -11,7 +11,7 @@
 # -------------------------------------------------------------------------------------
 
 # website title
-title = "Paspar's Blog"
+title = " Paspar's Blog"
 # Hostname (and path) to the root
 baseURL = "https://paspar.us.kg"
 # theme list
@@ -51,7 +51,7 @@ ignoreLogs = ['warning-dev-version']
     pre = ""
     # you can add extra information after the name (HTML format is supported), such as icons
     post = ""
-    name = "Archives"
+    name = "归档"
     url = "/archives/"
     # title will be shown when you hover on this menu link
     title = ""
@@ -73,7 +73,7 @@ ignoreLogs = ['warning-dev-version']
     parent = ""
     pre = ""
     post = ""
-    name = "Categories"
+    name = "分类"
     url = "/categories/"
     title = ""
     weight = 2
@@ -84,7 +84,7 @@ ignoreLogs = ['warning-dev-version']
     parent = ""
     pre = ""
     post = ""
-    name = "Tags"
+    name = "标签"
     url = "/tags/"
     title = ""
     weight = 3
@@ -344,7 +344,7 @@ ignoreLogs = ['warning-dev-version']
   titleDelimiter = "-"
   # FixIt 0.3.0 | NEW whether to add site subtitle to the title of index page
   # remember to set up your site subtitle by `params.header.subtitle.name`
-  indexWithSubtitle = false
+  indexWithSubtitle = true
   # FixIt 0.2.14 | NEW FixIt will, by default, inject a theme meta tag in the HTML head on the home page only.
   # You can turn it off, but we would really appreciate if you don’t, as this is a good way to watch FixIt's popularity on the rise.
   disableThemeInject = false
@@ -352,14 +352,14 @@ ignoreLogs = ['warning-dev-version']
   # Author Configuration
   [params.author]
     name = "Paspar"
-    email = "paspartame@foxmail.com"
+    email = "xiaolingfeng233@gmail.com"
     link = "https://github.com/Paspartame"
-    avatar = "/images/avatars/nanhe.png"
+    avatar = ""
 
   # FixIt 0.3.0 | NEW public Git repository information only then enableGitInfo is true
   [params.gitInfo]
     # e.g. "https://github.com/hugo-fixit/docs"
-    repo = ""
+    repo = "https://github.com/Pasapartame/MyBlog"
     branch = "main"
     # the content directory path relative to the root of the repository
     dir = "content"
@@ -370,7 +370,7 @@ ignoreLogs = ['warning-dev-version']
   # App icon config
   [params.app]
     # optional site title override for the app when added to an iOS home screen or Android launcher
-    title = "FixIt"
+    title = "Paspar's Blog"
     # whether to omit favicon resource links
     noFavicon = false
     # modern SVG favicon to use in place of older style .png and .ico files
@@ -386,7 +386,7 @@ ignoreLogs = ['warning-dev-version']
 
   # Search config
   [params.search]
-    enable = false
+    enable = true
     # type of search engine ["algolia", "fuse"]
     type = "fuse"
     # max index length of the chunked content
@@ -420,13 +420,13 @@ ignoreLogs = ['warning-dev-version']
   # Header config
   [params.header]
     # FixIt 0.2.13 | CHANGED desktop header mode ["sticky", "normal", "auto"]
-    desktopMode = "sticky"
+    desktopMode = "auto"
     # FixIt 0.2.13 | CHANGED mobile header mode ["sticky", "normal", "auto"]
     mobileMode = "auto"
     # Header title config
     [params.header.title]
       # URL of the LOGO
-      logo = ""
+      logo = "/favicon.svg"
       # title name
       name = ""
       # you can add extra information before the name (HTML format is supported), such as icons
@@ -542,9 +542,9 @@ ignoreLogs = ['warning-dev-version']
   [params.home]
     # Home page profile
     [params.home.profile]
-      enable = false
+      enable = true
       # Gravatar Email for preferred avatar in home page
-      gravatarEmail = ""
+      gravatarEmail = "xiaolingfeng233@gmail.com"
       # URL of avatar shown in home page
       avatarURL = ""
       # FixIt 0.2.17 | NEW identifier of avatar menu link
@@ -552,7 +552,7 @@ ignoreLogs = ['warning-dev-version']
       # title shown in home page (HTML format is supported)
       title = ""
       # subtitle shown in home page (HTML format is supported)
-      subtitle = ""
+      subtitle = "Thank you for guiding me here!"
       # whether to use typeit animation for subtitle
       typeit = true
       # whether to show social links
@@ -567,7 +567,7 @@ ignoreLogs = ['warning-dev-version']
 
   # FixIt 0.2.16 | CHANGED Social config about the author
   [params.social]
-    GitHub = ""
+    GitHub = "https://github.com/Paspartame"
     Linkedin = ""
     Twitter = ""
     Instagram = ""
@@ -778,15 +778,15 @@ ignoreLogs = ['warning-dev-version']
 
   # FixIt 0.2.14 | NEW GitHub banner in the top-right or top-left corner
   [params.githubCorner]
-    enable = false
-    permalink = "https://github.com/hugo-fixit/FixIt"
+    enable = true
+    permalink = "https://github.com/Paspartame/MyBlog"
     title = "View source on GitHub"
     position = "right" # ["left", "right"]
 
   # FixIt 0.2.14 | NEW Gravatar config
   [params.gravatar]
     # FixIt 0.2.18 | NEW Depends on the author's email, if the author's email is not set, the local avatar will be used
-    enable = false
+    enable = true
     # Gravatar host, default: "www.gravatar.com"
     host = "www.gravatar.com" # ["cravatar.cn", "gravatar.loli.net", ...]
     style = "" # ["", "mp", "identicon", "monsterid", "wavatar", "retro", "blank", "robohash"]
